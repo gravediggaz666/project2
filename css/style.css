@@ -1,0 +1,70 @@
+header {
+  background-color: coral;
+  position: relative;
+}
+
+nav#navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: inline-block
+}
+
+nav#navigation ul li {
+  float: left;
+}
+
+nav#navigation ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav#navigation ul li a:hover {
+  background-color: lightsalmon;
+  text-decoration: underline;
+}
+
+div#container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Impact, fantasy;
+}
+
+div#info,
+p,
+div#bullets {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(to left, pink, orange);
+}
+
+.img-container {
+  position: absolute;
+  right: 0%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 400px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+ 
