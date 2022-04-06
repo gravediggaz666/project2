@@ -100,8 +100,8 @@ body {
 }
 
 .card {
-    position: absolute;
-    top: 180%;
+  	position: absolute;
+    top: 210%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
@@ -111,26 +111,23 @@ body {
 }
 .card .imgBx,
 .card .details {
-    width: 100%;
+	width: 100%;
     height: 300%;
-    position: absolute;
+    position: fixed;
     box-sizing: border-box;
     transition: .5s;
 }
 
-.card:hover .imgBx {
-    top: 0;
-    left: -100%;
-}
+
 .card .imgBx img {
-    width: 90%;
+    width: 100%;
      height: 30%;
 }
 .card .details {
     background: #262626;
     top: 0;
     left: 200%;
-    padding: 60px 30px;
+    padding: 20px 30px;
 }
 .card:hover .details {
     top: 0;
