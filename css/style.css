@@ -99,7 +99,8 @@ body {
 }
 
 #video {
-	width=560 height=315;
+	width:560px;
+	height:315px;
 	display: block;
 	margin: 0 auto;
 }
